@@ -2,26 +2,51 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Flex Studio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Bienvenidos a Flex Studio</h1>
-    <a class="boton" href="#cursos">Ver cursos</a>
-  </header>
 
-  <section id="cursos">
-    <h2>Cursos disponibles</h2>
-    <div class="curso">
-      <h3>Cursos de Flexibilidad para Patinadoras</h3>
-      <p>APRENDE, DOMINA Y ELEVA LA FIGURA.</p>
+  <!-- Bienvenida -->
+  <section>
+    <h1 class="titulo-decorativo">Bienvenid@ a Flex Studio</h1>
+  </section>
+
+  <!-- Presentación -->
+  <section style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 30px;">
+    <div>
+      <h2>Soy <span class="resaltado">Candelaria Imbaud</span></h2>
+      <a href="#sobre-mi" class="boton">Conocé más de mí</a>
+    </div>
+    <img src="TU_LINK_DE_IMAGEN_AQUÍ" alt="Candelaria Imbaud" width="300" style="border-radius: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.2);" />
+  </section>
+
+  <!-- Cursos -->
+  <section>
+    <h2 class="resaltado">Cursos disponibles</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px;">
+      
+      <!-- Curso 1 -->
+      <div>
+        <img src="URL_IMAGEN_CURSO_1" alt="Curso 1" width="100%" style="border-radius: 10px;" />
+        <h3>Curso 1</h3>
+      </div>
+
+      <!-- Curso 2 -->
+      <div>
+        <img src="URL_IMAGEN_CURSO_2" alt="Curso 2" width="100%" style="border-radius: 10px;" />
+        <h3>Curso 2</h3>
+      </div>
+
+      <!-- Curso 3 -->
+      <div>
+        <img src="URL_IMAGEN_CURSO_3" alt="Curso 3" width="100%" style="border-radius: 10px;" />
+        <h3>Curso 3</h3>
+      </div>
+
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2022 Flex Studio</p>
-  </footer>
 </body>
 </html>
