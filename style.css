@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fffaf7;
+  background: #80817f; 
   color: #333;
 }
 
@@ -20,14 +20,14 @@ h1 {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: #ff69b4;
+  background-color: #80817f;
   color: white;
   text-decoration: none;
   border-radius: 8px;
 }
 
 .boton:hover {
-  background-color: #e055a1;
+  background-color: #cfff2b;
 }
 
 section {
@@ -37,8 +37,8 @@ section {
 }
 
 .curso {
-  border: 1px solid #f0cdd5;
-  background-color: #fff0f5;
+  border: 1px solid #c2f514;
+  background-color: #cfff2b;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -47,5 +47,5 @@ section {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #ffe4e1;
+  background-color: #cfff2b;
 }
