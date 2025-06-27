@@ -57,3 +57,32 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí - Flexibilidad</title>
+  <script>
+    function toggleAbout() {
+      const content = document.getElementById('aboutContent');
+      content.classList.toggle('hidden');
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white flex justify-center items-center min-h-screen p-4">
+  <div class="max-w-xl w-full bg-white shadow-2xl rounded-2xl p-6">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">Sobre mí</h2>
+    <button onclick="toggleAbout()" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-xl transition duration-300 ease-in-out">
+      Conocer más
+    </button>
+    <div id="aboutContent" class="hidden mt-4 text-gray-700 leading-relaxed">
+      <p>¡Hola! Soy <strong>[Tu Nombre]</strong>, tengo 26 años y soy profesora de Educación Física, acróbata y entrenadora especializada en flexibilidad para deportistas de todas las disciplinas.</p>
+      <p class="mt-2">Con más de 8 años de experiencia en clases de fitness grupal, flexibilidad y acrobacias, he acompañado a patinadoras, bailarinas, gimnastas y deportistas a mejorar su rendimiento y prevenir lesiones a través de la flexibilidad.</p>
+      <p class="mt-2">Además, me encanta compartir el movimiento con los más pequeños, dando clases para niños desde hace más de 3 años, siempre con creatividad y respeto por cada proceso.</p>
+      <p class="mt-2">Mi misión es que descubras que trabajar tu flexibilidad no es solo estirar, sino entrenar tu cuerpo con inteligencia para que se mueva con libertad, fuerza y control.</p>
+    </div>
+  </div>
+</body>
+</html>
